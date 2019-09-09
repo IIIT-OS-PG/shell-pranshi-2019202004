@@ -1,9 +1,7 @@
-// #include<iostream>
+/*Referenced from  https://brennan.io/2015/01/16/write-a-shell-in-c/ and https://www.geeksforgeeks.org/making-linux-shell-c/ */
 #include<string.h>
 #include<stdlib.h>
 #include<stdio.h>
-
-// using namespace std;
 
 #include<readline/readline.h> 
 #include<sys/types.h>
