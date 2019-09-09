@@ -64,7 +64,7 @@ int changedirec(char *args[])
 	}
 	else if(args[1] == "~")
 	{
-		chdir(getenv("./"));
+		chdir(getenv("HOME"));
 		return 1;
 	}
 	else if(chdir(args[1]) == -1)
